@@ -6,8 +6,9 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: petejohanson
+      revision: v3.5-device-power-management
+      clone-depth: 1
       import: app/west.yml
   self:
     path: config
