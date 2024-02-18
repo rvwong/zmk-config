@@ -14,9 +14,9 @@
                 compatible = "zmk,behavior-tap-dance";
                 tapping-term-ms = <200>;
                 bindings = <&kp BKSP>, <&kp DEL>;
-          }
+          };
         };
-        
+
         keymap {
                 compatible = "zmk,keymap";
 
