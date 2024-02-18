@@ -4,12 +4,11 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
-    - name: petejonhanson
-    url-base: https://github.com/petejohnson
+
   projects:
     - name: zmk
-      remote: petejohanson
-      revision: v3.5-device-power-management
+      remote: zmkfirmware
+      revision: main
       clone-depth: 1
       import: app/west.yml
   self:
