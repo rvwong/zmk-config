@@ -12,7 +12,7 @@ manifest:
   projects:
     - name: zmk
       remote:  zmkfirmware
-      revision: fix-battery-display-widget-startup
+      revision: pull/fix-battery-display-widget-startup/head
       clone-depth: 1
       import: 
   self:
