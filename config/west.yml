@@ -10,10 +10,10 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
 
   projects:
-    - name: zmkfirmware
+    - name: zmk-zephyr
       remote: infused-kim
       revision: v2.5.0+zmk-fixes+kim-fixes
       clone-depth: 1
-      import: app/west.yml
+      import: 
   self:
     path: config
