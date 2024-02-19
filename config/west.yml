@@ -2,9 +2,9 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-      - name: microsoft
+    - name: microsoft
       url-base: https://github.com/microsoft
-      - name: infused-kim
+    - name: infused-kim
       url-base: https://github.com/infused-kim
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
