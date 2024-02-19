@@ -10,9 +10,9 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
 
   projects:
-    - name: zmk-zephyr
-      remote: infused-kim
-      revision: v2.5.0+zmk-fixes
+    - name: zmk
+      remote:  zmkfirmware
+      revision: fix-battery-display-widget-startup
       clone-depth: 1
       import: 
   self:
