@@ -29,6 +29,54 @@
                 tapping-term-ms = <200>;
                 bindings = <&kp W>, <&kp N2>;
           };
+          tde: tap_dance_e {
+                compatible = "zmk,behavior-tap-dance";
+                #binding-cells = <0>;
+                tapping-term-ms = <200>;
+                bindings = <&kp E>, <&kp N3>;
+          };
+          tdr: tap_dance_r {
+                compatible = "zmk,behavior-tap-dance";
+                #binding-cells = <0>;
+                tapping-term-ms = <200>;
+                bindings = <&kp R>, <&kp N4>;
+          };
+          tdt: tap_dance_t {
+                compatible = "zmk,behavior-tap-dance";
+                #binding-cells = <0>;
+                tapping-term-ms = <200>;
+                bindings = <&kp T>, <&kp N5>;
+          };
+          tdy: tap_dance_y {
+                compatible = "zmk,behavior-tap-dance";
+                #binding-cells = <0>;
+                tapping-term-ms = <200>;
+                bindings = <&kp Y>, <&kp N6>;
+          };
+          tdu: tap_dance_u {
+                compatible = "zmk,behavior-tap-dance";
+                #binding-cells = <0>;
+                tapping-term-ms = <200>;
+                bindings = <&kp U>, <&kp N7>;
+          };
+          tdi: tap_dance_i {
+                compatible = "zmk,behavior-tap-dance";
+                #binding-cells = <0>;
+                tapping-term-ms = <200>;
+                bindings = <&kp I>, <&kp N8>;
+          };
+          tdo: tap_dance_o {
+                compatible = "zmk,behavior-tap-dance";
+                #binding-cells = <0>;
+                tapping-term-ms = <200>;
+                bindings = <&kp O>, <&kp N9>;
+          };
+          tdp: tap_dance_p {
+                compatible = "zmk,behavior-tap-dance";
+                #binding-cells = <0>;
+                tapping-term-ms = <200>;
+                bindings = <&kp P>, <&kp N0>;
+          };
         };
 
         keymap {
@@ -41,7 +89,7 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB   &tdq &tdw &mt N3 E &mt N4 R &mt N5 T   &mt N6 Y &mt N7 U  &mt N8 I     &mt N9 O   &mt N0 P    &kp BSPC
+   &kp TAB   &tdq &tdw &tde &tdr &tdt &tdy &tdu  &tdi     &tdo   &tdp    &kp BSPC
    &sk LSHFT &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LCTRL &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
                    &td0 &sl 1 &kp SPACE   &kp RET &sl 2 &kp RALT
