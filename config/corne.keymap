@@ -8,10 +8,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-&mt {
-    tapping-term-ms = <400>;
-    quick-tap-ms = <200>;
-};
 
 / {
         behaviors {
@@ -21,11 +17,17 @@
                 tapping-term-ms = <200>;
                 bindings = <&kp BKSP>, <&kp DEL>;
           };
-          td2: tap_dance_two_tap {
+          tdq: tap_dance_q {
                 compatible = "zmk,behavior-tap-dance";
-                #binding-cells = <2>;
+                #binding-cells = <0>;
                 tapping-term-ms = <200>;
-                bindings = <&kp>, <&kp>;
+                bindings = <&kp Q>, <&kp N1>;
+          };
+          tdw: tap_dance_w {
+                compatible = "zmk,behavior-tap-dance";
+                #binding-cells = <0>;
+                tapping-term-ms = <200>;
+                bindings = <&kp W>, <&kp N2>;
           };
         };
 
@@ -39,7 +41,7 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB   &td2 N1 Q &mt N2 W &mt N3 E &mt N4 R &mt N5 T   &mt N6 Y &mt N7 U  &mt N8 I     &mt N9 O   &mt N0 P    &kp BSPC
+   &kp TAB   &tdq &tdw &mt N3 E &mt N4 R &mt N5 T   &mt N6 Y &mt N7 U  &mt N8 I     &mt N9 O   &mt N0 P    &kp BSPC
    &sk LSHFT &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LCTRL &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
                    &td0 &sl 1 &kp SPACE   &kp RET &sl 2 &kp RALT
