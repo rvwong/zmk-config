@@ -8,6 +8,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+&lt {
+    tapping-term-ms = <200>;
+};
+
 / {
         behaviors {
           td0: tap_dance_0 {
