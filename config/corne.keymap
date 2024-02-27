@@ -21,7 +21,7 @@
                 tapping-term-ms = <200>;
                 bindings = <&kp BKSP>, <&kp DEL>;
           };
-          td2: tap_dance_0 {
+          td2: tap_dance_two_tap {
                 compatible = "zmk,behavior-tap-dance";
                 #binding-cells = <2>;
                 tapping-term-ms = <200>;
