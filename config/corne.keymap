@@ -20,61 +20,61 @@
           tdq: tap_dance_q {
                 compatible = "zmk,behavior-tap-dance";
                 #binding-cells = <0>;
-                tapping-term-ms = <400>;
+                tapping-term-ms = <100>;
                 bindings = <&kp Q>, <&kp N1>;
           };
           tdw: tap_dance_w {
                 compatible = "zmk,behavior-tap-dance";
                 #binding-cells = <0>;
-                tapping-term-ms = <400>;
+                tapping-term-ms = <100>;
                 bindings = <&kp W>, <&kp N2>;
           };
           tde: tap_dance_e {
                 compatible = "zmk,behavior-tap-dance";
                 #binding-cells = <0>;
-                tapping-term-ms = <400>;
+                tapping-term-ms = <100>;
                 bindings = <&kp E>, <&kp N3>;
           };
           tdr: tap_dance_r {
                 compatible = "zmk,behavior-tap-dance";
                 #binding-cells = <0>;
-                tapping-term-ms = <400>;
+                tapping-term-ms = <100>;
                 bindings = <&kp R>, <&kp N4>;
           };
           tdt: tap_dance_t {
                 compatible = "zmk,behavior-tap-dance";
                 #binding-cells = <0>;
-                tapping-term-ms = <400>;
+                tapping-term-ms = <100>;
                 bindings = <&kp T>, <&kp N5>;
           };
           tdy: tap_dance_y {
                 compatible = "zmk,behavior-tap-dance";
                 #binding-cells = <0>;
-                tapping-term-ms = <400>;
+                tapping-term-ms = <100>;
                 bindings = <&kp Y>, <&kp N6>;
           };
           tdu: tap_dance_u {
                 compatible = "zmk,behavior-tap-dance";
                 #binding-cells = <0>;
-                tapping-term-ms = <400>;
+                tapping-term-ms = <100>;
                 bindings = <&kp U>, <&kp N7>;
           };
           tdi: tap_dance_i {
                 compatible = "zmk,behavior-tap-dance";
                 #binding-cells = <0>;
-                tapping-term-ms = <400>;
+                tapping-term-ms = <100>;
                 bindings = <&kp I>, <&kp N8>;
           };
           tdo: tap_dance_o {
                 compatible = "zmk,behavior-tap-dance";
                 #binding-cells = <0>;
-                tapping-term-ms = <400>;
+                tapping-term-ms = <100>;
                 bindings = <&kp O>, <&kp N9>;
           };
           tdp: tap_dance_p {
                 compatible = "zmk,behavior-tap-dance";
                 #binding-cells = <0>;
-                tapping-term-ms = <400>;
+                tapping-term-ms = <100>;
                 bindings = <&kp P>, <&kp N0>;
           };
         };
